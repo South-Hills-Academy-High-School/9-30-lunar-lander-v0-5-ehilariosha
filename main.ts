@@ -83,7 +83,7 @@ fireball = sprites.create(img`
 fireball.setFlag(SpriteFlag.Invisible, true)
 angle = 0
 tiles.setCurrentTilemap(tilemap`level2`)
-effects.starField.startScreenEffect()
+effects.clouds.startScreenEffect()
 apple = sprites.create(img`
     . . . . . . . e c 7 . . . . . . 
     . . . . e e e c 7 7 e e . . . . 
